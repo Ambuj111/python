@@ -1,0 +1,18 @@
+name = str(input ("What is your name?"))
+
+gender = str(input ("What is your gender?"))
+
+if gender == 'male' or 'Male':
+
+    print ("Hello Mr %s" % (name))
+    
+elif gender=='transgender' or 'transgender':
+    print("transgender")
+
+elif gender == 'female' or 'Female':
+
+    print ("Hello Mrs Mr %s" %  (name))
+
+else:
+
+    print ('Invalid gender. Please try again.')
